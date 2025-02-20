@@ -4,10 +4,27 @@
 }
 
 * {
-  margin-bottom: 0;
+  margin: 0;
   padding: 0;
   list-style: none;
   font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dbdbdb;
+}
+
+.page_wrapper {
+  height: calc(100vh - 7rem);
+  background-color: #ffffff;
+  padding: 1.5rem 2rem;
+  margin: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
