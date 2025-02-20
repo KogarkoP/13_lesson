@@ -27,10 +27,59 @@ hr {
 }
 
 .page_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: calc(100vh - 4rem);
   background-color: #ffffff;
   padding: 1.5rem 2rem;
   margin: 2rem;
+}
+
+.sign_up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sign_up h1 span {
+  display: block;
+  text-align: center;
+}
+
+.sign_up p {
+  font-weight: 500;
+}
+
+.email {
+  position: relative;
+}
+
+.email input {
+  width: 400px;
+  height: 2.5rem;
+  margin-right: 1rem;
+  padding-left: 40px;
+  padding-right: 20px;
+  border: 2px solid #a09e9e;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+.email input::placeholder {
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.email .fa-solid.fa-paper-plane {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
 }
 
 .featured_plans {
@@ -49,7 +98,7 @@ hr {
 
 .card {
   width: 100%;
-  padding: 1rem;
+  padding: 2rem 1rem;
   border-radius: 1.5rem;
 }
 
@@ -187,8 +236,4 @@ header {
 .meniu_button {
   padding-left: 1rem;
   color: black;
-}
-
-.sign_up {
-  height: 4rem;
 }
