@@ -75,7 +75,7 @@ hr {
 }
 
 .card1 {
-  background-color: #7aaf7a;
+  background-color: #5ecba1;
 }
 
 .card2 {
@@ -89,11 +89,11 @@ hr {
 }
 
 .card3 {
-  background-color: #dda0dd;
+  background-color: #cb9cfc;
 }
 
 .card4 {
-  background-color: #e4e454;
+  background-color: #f8fe92;
 }
 
 .card h4 {
@@ -123,37 +123,82 @@ header {
 .logo_mail_wrapper {
   height: 50px;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   flex-direction: row;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
 .mail_text {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .logo_img {
   /* display: flex; */
   /* object-fit: contain; */
-  height: auto;
-  object-fit: none;
+  height: 20px;
+  object-fit: cover;
 }
 
 .links {
   display: flex;
-  gap: 2rem;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
   list-style: none;
 }
 
 .log_in_button {
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
+  align-items: center;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: rgb(215 215 215);
+  border-width: 1px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 1000;
+  display: inline-flex;
+  justify-content: center;
+
+  width: 90px;
+  height: 38px;
+
+  padding: 0px;
+  text-align: center;
+  touch-action: manipulation;
 }
 
 .get_started_button {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
+  align-items: center;
+  background-color: #000000;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 1000;
+  display: inline-flex;
+  justify-content: center;
+
+  width: 120px;
+  height: 38px;
+
+  padding: 0px;
+  text-align: center;
+  touch-action: manipulation;
 }
 
 .meniu_button {
+  padding-left: 1rem;
+  color: black;
+}
+
+.sign_up {
+  height: 4rem;
 }
