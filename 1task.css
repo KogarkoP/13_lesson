@@ -82,6 +82,21 @@ hr {
   z-index: 999;
 }
 
+.email button {
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+  background-color: #000000;
+  border: 0;
+  font-size: 14px;
+  font-weight: 900;
+  cursor: pointer;
+  height: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 50px;
+}
+
 .featured_plans {
   display: flex;
   justify-content: space-between;
@@ -207,7 +222,7 @@ header {
   border-width: 1px;
   border-radius: 100px;
   font-size: 14px;
-  font-weight: 1000;
+  font-weight: 900;
   display: inline-flex;
   justify-content: center;
   width: 90px;
@@ -224,7 +239,7 @@ header {
   border: 0;
   border-radius: 100px;
   font-size: 14px;
-  font-weight: 1000;
+  font-weight: 900;
   display: inline-flex;
   justify-content: center;
   width: 120px;
