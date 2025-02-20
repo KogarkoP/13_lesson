@@ -28,15 +28,47 @@ main {
 }
 
 header {
-}
-.logo_mail {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo {
+.logo_mail_wrapper {
+  height: 50px;
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.mail_text {
+}
+
+.logo_img {
+  /* display: flex; */
+  /* object-fit: contain; */
+  height: auto;
+  object-fit: none;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
 }
 
 .log_in_button {
+  color: black;
+  text-decoration: none;
 }
 
 .get_started_button {
+  color: black;
+  text-decoration: none;
+}
+
+.meniu_button {
 }
